@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir&family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap');
+*{margin:0; padding:0;}
+
+body{
+	background-color: black;
+}
+
+header, img{
+	width: 100%;
+	height: 500px;
+}
+
+.img-poster{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.img-catalogo{
+	width: 30%;
+	height: 500px;
+	position: relative;
+	left: 450px;
+	padding: 20px;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+nav, a, ul{
+	font: 20em, 'roboto', sans-serif;
+	color: #F67E0E;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+}
+
+.pag-menu{
+	font-weight: bold;
+	padding: 20px;
+	margin-right: 80px;
+}
+
+article, p, li, div, section{
+	font: 10em, 'avenir', monospace, bold;
+	color: silver;
+	text-align: center;
+	line-height: 20px;
+	padding: 5px;
+	margin: 20px;
+
+}
+
+.titulo{
+	font: 10em, 'roboto' monospace;
+	color: #F67E0E;
+	text-align: center;
+	padding: 10px;
+}
+
+.catalogo p{
+ 	font: 10em, 'roboto', monospace;
+	color: silver;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.card-catalogo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.pag-generos{
+	text-align: justify;
+	position: relative;
+	left: 320px;
+}
+
+h1, h2, h3{
+	font: 10em, 'roboto' monospace;
+	color: #F67E0E;
+	text-align: center;
+	padding: 10px;
+}
+
+label, input, legend, option, textarea{
+	font: 12em, 'roboto', monospace;
+	color: silver;
+	text-align: justify;
+	line-height: 20px;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+fildset{
+	padding: 2px;
+	margin-bottom: 2px;
+}
+
+select{
+	font: 10em, 'roboto', sans-serif;
+	color: black;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#pag-catalogo{
+	font: 10em, 'roboto' monospace;
+	color: #F67E0E;
+	text-align: center;
+	padding: 10px;
+}
+
+#rodape{
+	font: 10px, 'roboto', sans-serif;
+	color: silver;
+	text-align: center;
+}
+
+#link-rodape{
+	font: 10em, 'roboto', cursive;
+	font-style: initial;
+	color: #F67E0E;
+	text-align: center;
+}
+
+#botoes{
+	font: 5em, 'avenir', monospace;
+	background-color: black;
+	color: #F67E0E;
+	text-align: center;
+	position: relative;
+	right: 600px;
+	padding: 10px;
+	margin: 10px;
+}
+
+#btn-topo{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 2px;
+}

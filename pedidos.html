@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Livraria Virtual Geek</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Weslley Lopes"/>
+		<meta name="keywords" content="livros, adaptaçoes, franquias, novels, best-sellers, hqs, mangás."/>
+		<meta name="description" content="Essa pagina representa um espaço democrático e diverso, voltado para o entretenimento."/>
+		<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	</head>
+	<body>
+		<header>
+		<br/>
+		<nav id="pag-menu">
+				<a class="pag-menu" href="index.html"> PAGINA INICIAL </a>
+				<a class="pag-menu" href="#pag-generos"> GÊNEROS </a>
+				<a class="pag-menu" href="#pag-catalogo"> CATÁLOGO </a>
+				<a class="pag-menu" href="#pag-soon"> EM BREVE </a>
+				<a class="pag-menu" href="pedidos.html"> PEDIDOS </a>
+		</nav>
+		<br/>
+		<img id="img-topo" src="img/banner.png" alt="identidade visual da pagina, contendo livros"/>
+		</header>
+		<br/><br/><br/>
+		<h1>PEDIDOS</h1>
+		<p>Faça aqui sua solicitação do livro que gostaria de ver em nosso catálogo!</p>
+		<form name="" method="" action="">
+			<label for="nome">Nome:</label><br/>
+			<input id="nome" type="text" name="nome" size="100" placeholder="Digite aqui seu nome e sobrenome" required autofocus/><br/><br/>
+			<label for="email">E-mail:</label><br/>
+			<input id="email" type="email" name="email" size="100" placeholder="usuario@email.com"/><br/><br/>
+			<label for="telefone">Telefone:</label><br/>
+			<input id="telefone" type="tel" name="telefone" size="100" placeholder="(99)99999-9999"/ pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$"><br/><br/>
+			<fieldset>
+			<legend>Como você se identifica?</legend>
+			<input id="masc" type="radio" name="genero" value="masc"/><label for="masc">Masculino</label><br/>
+			<input id="fem" type="radio" name="genero" value="fem"/><label for="fem">Feminino</label><br/>
+			<input id="nb" type="radio" name="genero" value="nb"/><label for="nb">Não-binário</label></br>
+			</fieldset>
+			<br/>
+			<label for="filmes">Livro:</label><br/>
+			<input id="filme" type="text" name="filme" size="100" placeholder="Digite aqui o nome do filme que deseja solicitar" required autofocus /><br/><br/>
+			<fieldset>
+				<legend>Selecione a categoria do livro solicitado:</legend>
+				<input id="longa-metragem" type="checkbox" name="categoria" value="longa-metragem"/><label for="longa-metragem">Literatura</label><br/>
+				<input id="curta-metragem" type="checkbox" name="categoria" value="curta-metragem"/><label for="curta-metragem">Ficção</label><br/>
+				<input id="documentario" type="checkbox" name="categoria" value="documentario"/><label for="yoga">Científicos ou de não-ficção</label><br/>
+				<input id="curta-documentario" type="checkbox" name="categoria" value="curta-documentário"/><label for="curta-documentário">Política</label><br/>
+				<input id="animaçao" type="checkbox" name="categoria" value="animaçao"/><label for="animaçao">Religião</label><br/>
+			</fieldset>
+			<br/>
+			<label for="genero">Gênero do livro:</label><br/><br/>
+			<select name="genero">
+				<option value="">Selecione</option>
+				<option value="sci-fi">Ficção Científica</option>
+				<option value="fantasia">Fantasia</option>
+				<option value="aventura">Aventura</option>
+				<option value="terror">Terror</option>
+			</select>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<label for="texto">Use esse campo para digitar, caso necessário:</label><br/>
+			<textarea cols="100" rows="5"></textarea>
+			<p>
+			<input id="botoes" type="submit" name="bnt-solicitar" value="SOLICITAR"/>
+			<input id="botoes" type="reset" name="btn-cancelar" value="CANCELAR"/>
+			</p><br/>
+		</form>
+		<hr/><br/><br/><br/>
+		<a href="#img-topo"><img id="btn-topo" src="img/btn-topo.png" alt="imagem do botão que direciona ao topo da página"/></a>		
+		<p id="rodape">Desenvolvido por <a id="link-rodape" href="https://criarmeulink.com.br/u/1712094461" target="_blank"> Weslley Lopes</a> - 2024</p>
+	</body>
+</html>
